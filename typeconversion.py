@@ -15,3 +15,5 @@ print(sum)
 #sum=(a+b)
 #print(sum)
 #that doesnt work as the data tpe that iam trying to type convert ios not in the form of integer
+f=str("35")#this changes the type to string
+print(type(f))
