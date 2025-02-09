@@ -31,5 +31,7 @@ element=int(input("enter a number to search in the followiung list"))
 index=0
 while index<len(num1):
     if (num1[index] == element):
-         print("found")
+         print("found at index",index)
+    else:
+        print("finding...")
     index +=1
