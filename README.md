@@ -77,13 +77,3 @@ To follow this course in a structured way, proceed in the following order:
 
 - A code editor (VS Code, PyCharm, or Jupyter Notebook).
 
-## Contributions
-
-Feel free to contribute by adding new practice problems, improving explanations, or fixing issues.
-
-## Contact
-
-For queries, suggestions, or collaborations, reach out via GitHub Issues.
-
-Happy Coding.
-
