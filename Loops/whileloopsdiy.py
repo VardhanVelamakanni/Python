@@ -35,3 +35,11 @@ while index<len(num1):
     else:
         print("finding...")
     index +=1
+#write a program to find the sum of first n numbers.(using while)
+n=int(input("enter the limit of the sum"))
+i=1
+sum=0
+while i <= n:
+    sum +=i
+    i+=1
+print(sum)
