@@ -11,7 +11,7 @@ print("end of the loop")
 #prints only untill the specified if confition 
 
 #previous example
-#refer to Loops/loopsdiy.py
+#refer to Loops/whileloopsdiy.py
 num1=[1,4,9,16,25,36,49,64,81,100]
 element=int(input("enter a number to search in the followiung list"))
 index=0
@@ -28,7 +28,17 @@ while index<len(num1):
 num=1
 while num<=5:
     if num ==3:
-        num +=1
-        continue
+        num +=1#here it goes for three and appends the value to four and continues...i.e skips the value 3 here
+        continue#skip
     print(num)
     num+=1
+
+#to print even number untill a given input
+num=int(input("enter the number untill which you need to find even numbers"))
+i=0
+while i < num:
+    if(i%2 != 0):
+        i +=1
+        continue
+    print(i)
+    i +=1
