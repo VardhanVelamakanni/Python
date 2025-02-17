@@ -36,4 +36,8 @@ def calc_prod(a=1,b=3):#default values 1,3 given
     prod=a*b
     print(prod)
     return prod
-calc_prod()#no vlaues given means it need to take default parametrs of the function definition 1,3
+calc_prod()#no vlaues given means it need to take default parametrs of the function definition 1,
+#if only one default value must be given then it must always follow a non default argument
+#example
+"""def cal_prod(b,a=2)===correct
+def calc_prod(a=2,b)===wrong"""
